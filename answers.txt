@@ -1,0 +1,4 @@
+git status:Show the working tree status.
+git init:To create an empty Git repository or reformat an existing one .
+git commit:Record changes to the repository.
+git push:Update remote refs along with associated objects.

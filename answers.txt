@@ -3,19 +3,17 @@ git status:Show the working tree status.
 git init:To create an empty Git repository or reformat an existing one .
 git commit:Record changes to the repository.
 git push:Update remote refs along with associated objects.
-
+-----------------------------------------
 Q2:-
 I strongly disagree with Ahmed.
 git add is crucial for organizing and reviewing changes clearly 
 skipping it just creates messy commits and confusion.
-
-
-
+-----------------------------------------
 Q3:-
 A: GitLab , Bitbucket
 B: History Tracking, Collaboration, Branching and Merging,  Conflict Resolution
 C: True
-
+-----------------------------------------
 Q4:-
 --set-upstream
 git push impact : After running git push -u origin main once,
@@ -25,3 +23,14 @@ git pull impact : After setting the upstream with -u,
                   Git knows which remote (origin) and branch (main) to use.
                   While on the main branch, we can simply run git pull.
                   Git will automatically pull from the correct remote and branch.
+-----------------------------------------
+Practical Part:
+1. I created a local Git repository on my computer.
+
+2. I generated a new SSH key and added it to my GitHub account.
+
+3. I linked the local repository to GitHub using the SSH protocol.
+
+4. I added changes to the local repository and committed them.
+
+5. I pushed the changes to GitHub using the git push command.
